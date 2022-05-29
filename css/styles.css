@@ -126,7 +126,7 @@ a.active {
 .features-subtitle {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--second-title-color);
@@ -138,7 +138,15 @@ a.active {
     letter-spacing: 0.03em;
 }
 
+/*--------- Products STYLES --------- */
 
-
+.products-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+}
 
 
