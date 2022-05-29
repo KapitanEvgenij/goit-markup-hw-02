@@ -7,6 +7,7 @@
     --main-text-color: #757575;
     --accent-color: #2196F3;
     --main-btn-color: #2196F3;
+    --second-btn-color: #F5F4FA;
     --main-bg-color: #2F303A;
     --footer-contacts-color: rgba(255, 255, 255, 0.6);
     --main-font: "Roboto", sans-serif;
@@ -209,3 +210,24 @@ a.active {
 
 
 /*----------------PORTFOLIO STYLES--------------*/
+/*------- Portfolio navigation ----------------*/
+
+.portfolio-btn{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: var(--second-btn-color);
+    cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: #ffffff;
+    background-color: var(--main-btn-color);
+}
+
+/*------- Portfolio gallery ----------------*/
