@@ -7,6 +7,7 @@
     --main-text-color: #757575;
     --accent-color: #2196F3;
     --main-btn-color: #2196F3;
+    --main-bg-color: #2F303A;
     --main-font: "Roboto", sans-serif;
    
 
@@ -31,7 +32,8 @@ a.active {
 }
 
 
-/*----- HEADER STYLES ----- */
+/*--------- HEADER STYLES --------- */
+
 .header-logo {
         font-family: 'Raleway';
         font-weight: 700;
@@ -71,8 +73,34 @@ a.active {
 }
 
 
+/*--------- HERO STYLES --------- */
+.hero {
+    background-color: var(--main-bg-color);
+}
 
+.hero-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36x;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color:var(--main-title-color);
+}
 
+.hero-btn {
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+        background: var(--main-btn-color);
+}
+ 
 
 
 
