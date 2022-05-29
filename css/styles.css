@@ -231,3 +231,16 @@ a.active {
 }
 
 /*------- Portfolio gallery ----------------*/
+.portfolio-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--second-title-color);
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
