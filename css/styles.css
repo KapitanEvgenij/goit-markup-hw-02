@@ -16,6 +16,7 @@
 
 body {
     font-family: var(--main-font);
+    color: var(--main-text-color);
    
 }
 
@@ -29,6 +30,19 @@ body {
 
 a.active {
     color: var(--accent-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 
@@ -100,10 +114,29 @@ a.active {
         color: #FFFFFF;
         background: var(--main-btn-color);
 }
+
+.hero-btn:hover,
+.hero-btn:focus {
+    color: #FFFFFF;
+    background: var(--main-btn-color);  
+}
  
+/*--------- Features STYLES --------- */
 
+.features-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-title-color);
+}
 
-
+.features-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
 
 
 
