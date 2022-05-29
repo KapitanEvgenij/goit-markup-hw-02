@@ -175,3 +175,36 @@ a.active {
         text-align: center;
         letter-spacing: 0.03em;
 }
+
+/*--------- Footer STYLES --------- */
+.footer {
+    background-color: var(--main-bg-color);
+}
+
+.address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+}
+
+.footer-address {
+    color: #FFFFFF;
+}
+
+.footer-email,
+.footer-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address:hover,
+.footer-address:focus,
+.footer-link:hover,
+.footer-link:focus,
+.footer-tel:hover,
+.footer-tel:focus,
+.footer-email:hover,
+.footer-email:focus {
+    color: var(--accent-color);
+}
