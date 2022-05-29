@@ -8,16 +8,13 @@
     --accent-color: #2196F3;
     --main-btn-color: #2196F3;
     --main-bg-color: #2F303A;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
     --main-font: "Roboto", sans-serif;
-   
-
-
 }
 
 body {
     font-family: var(--main-font);
     color: var(--main-text-color);
-   
 }
 
 .list {
@@ -40,7 +37,7 @@ a.active {
     overflow: hidden;
     border: 0;
     padding: 0;
-    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
     clip-path: inset(50%);
     margin: -1px;
 }
@@ -49,12 +46,12 @@ a.active {
 /*--------- HEADER STYLES --------- */
 
 .header-logo {
-        font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        color: var(--logo-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--logo-color);
 }
 
 .header-logo span   {
@@ -64,11 +61,11 @@ a.active {
 .header-link,
 .header-tel,
 .header-email {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        color: var(--header-nav-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--header-nav-color);
         
 }
 
@@ -93,26 +90,27 @@ a.active {
 }
 
 .hero-title {
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36x;
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        color:var(--main-title-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:var(--main-title-color);
 }
 
 .hero-btn {
-        font-family: inherit;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.88;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-        color: #FFFFFF;
-        background: var(--main-btn-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: var(--main-btn-color);
+    cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -161,19 +159,19 @@ a.active {
 }
 
 .team-subtitle {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.18;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: var(--second-title-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
 }
 
 .team-text {
-        font-size: 16px;
-        line-height: 1.18;
-        text-align: center;
-        letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /*--------- Footer STYLES --------- */
@@ -195,7 +193,7 @@ a.active {
 
 .footer-email,
 .footer-tel {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-contacts-color);
 }
 
 .footer-address:hover,
@@ -208,3 +206,6 @@ a.active {
 .footer-email:focus {
     color: var(--accent-color);
 }
+
+
+/*----------------PORTFOLIO STYLES--------------*/
