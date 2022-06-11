@@ -57,7 +57,7 @@ a.active {
     color: var(--logo-dark-color);
 }
 
-.header-logo span   {
+.logo-accent   {
     color:var(--accent-color);
 }
 
@@ -152,6 +152,9 @@ a.active {
 
 /*--------- TEAM STYLES --------- */
 
+.team {
+    background-color: #F5F4FA;
+}
 
 .team-title {
     font-weight: 700;
